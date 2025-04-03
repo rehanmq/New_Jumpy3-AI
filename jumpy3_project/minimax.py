@@ -61,7 +61,7 @@ def main():
     elif black_win(best_move):
         print(f"\ud83c\udfc6 Winner: Black detected at depth {depth}")
     else:
-        print("⚪ No winner yet.")
+        print(" No winner yet.")
 
     write_board(best_move, outputfile)
 
